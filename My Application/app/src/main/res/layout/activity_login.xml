@@ -22,7 +22,7 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginTop="40dp"
-            android:src="@drawable/ic_launcher_foreground"
+            android:src="@drawable/notebook"
             android:contentDescription="@string/app_logo"
         android:layout_gravity="center" />
 
@@ -85,7 +85,7 @@
             android:id="@+id/signup_reg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/no_account_sign_up"
+            android:text="you Don't have an account? Sign Up"
             android:textColor="#2196F3"
             android:textSize="14sp" />
 
