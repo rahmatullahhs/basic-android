@@ -10,29 +10,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication" >
+        android:theme="@style/Theme.MyApp">
+
         <activity
             android:name=".Login"
             android:exported="false" />
-        <!-- Splash activity becomes the launcher -->
+
         <activity
             android:name=".Splash"
             android:exported="true"
-            android:theme="@style/Theme.MyApplication" >
+            android:theme="@style/Theme.MyApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Other activities -->
+        </activity>
+
         <activity
             android:name=".RegistrationActivity"
-            android:exported="true" />
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/app_name"
-            android:theme="@style/Theme.MyApplication" />
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
     </application>
-
 </manifest>
