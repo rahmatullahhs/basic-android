@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class Splash extends AppCompatActivity {
 
     private TextView splashText;
-    private String message = "Welcome to my App";
+    private String message = "Basic Android Application Development";
     private int index = 0;
     private long delay= 150;
     private Handler handler = new Handler(Looper.getMainLooper());
