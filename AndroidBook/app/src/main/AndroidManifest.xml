@@ -11,21 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBook">
-
+        <activity
+            android:name=".ChapterDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Contents"
+            android:exported="false" />
         <activity
             android:name=".Home"
             android:exported="false" />
-
         <activity
             android:name=".Splash"
             android:exported="true"
             android:theme="@style/Theme.AndroidBook">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
