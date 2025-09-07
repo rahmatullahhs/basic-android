@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Splash extends AppCompatActivity {
 
     private TextView splashText;
-    private final String message = "Page and Play";
+    private final String message = "Learn Android. Build Apps";
     private int index = 1; // Start from 1 to avoid substring(0, 0) showing empty at first
     private final long delay = 150;
 
