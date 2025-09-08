@@ -17,7 +17,8 @@
         android:layout_height="wrap_content"
         android:contentDescription="Book Cover"
         android:scaleType="fitXY"
-        android:src="@drawable/cover" />
+        android:src="@drawable/cover"
+        android:layout_margin="10dp"/>
 
     <Button
         android:id="@+id/contentsBtn"
