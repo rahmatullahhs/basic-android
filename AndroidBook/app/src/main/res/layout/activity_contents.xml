@@ -8,18 +8,7 @@
     android:padding="16dp"
     tools:context=".Contents"
     android:orientation="vertical"
-    android:background="#0000"
-
-
-
-
-
-
-
-
-
-
-    >
+    android:background="#0000">
 
 
         <TextView

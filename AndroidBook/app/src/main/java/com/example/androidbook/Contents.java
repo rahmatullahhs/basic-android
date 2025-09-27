@@ -25,25 +25,9 @@ public class Contents extends AppCompatActivity {
             "Chapter 6: RecyclerView",
             "Chapter 7: Data Storage",
             "Chapter 8: Networking",
-            "Chapter 9: Final Project",
-            "Chapter 1: Android Studio Setup",
-            "Chapter 2: Android Studio Anatomy",
-            "Chapter 3: UI Layouts",
-            "Chapter 4: Activities and Intents",
-            "Chapter 5: Views and Widgets",
-            "Chapter 6: RecyclerView",
-            "Chapter 7: Data Storage",
-            "Chapter 8: Networking",
-            "Chapter 9: Final Project",
-            "Chapter 1: Android Studio Setup",
-            "Chapter 2: Android Studio Anatomy",
-            "Chapter 3: UI Layouts",
-            "Chapter 4: Activities and Intents",
-            "Chapter 5: Views and Widgets",
-            "Chapter 6: RecyclerView",
-            "Chapter 7: Data Storage",
-            "Chapter 8: Networking",
             "Chapter 9: Final Project"
+
+
     };
 
     @Override
